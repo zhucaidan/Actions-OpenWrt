@@ -15,3 +15,6 @@
 
 # Remove v2ray-plugin
 rm -rf openwrt/package/lean/v2ray-plugin
+
+# Add adguardhome
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git openwrt/package/lean
