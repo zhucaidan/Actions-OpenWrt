@@ -13,11 +13,8 @@
 # Modify default IP# Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
-# 755 files
-chmod -R 755 files
-
 # Remove v2ray-plugin
-rm -rf package/lean/v2ray-plugin
+rm -rf openwrt/package/lean/v2ray-plugin
 
 # Add adguardhome
-git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git openwrt/package/lean
