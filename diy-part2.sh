@@ -18,3 +18,7 @@ rm -rf ./package/lean/v2ray-plugin
 
 # Add adguardhome
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git ./package/lean/luci-app-adguardhome
+
+# Add argon
+rm -rf ./package/lean/luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git ./package/lean/luci-theme-argon
