@@ -8,4 +8,4 @@ config global
 	option transparency_dark '0.5'
 	option mode 'light'
 	option bing_background '1'
-
+	
