@@ -16,7 +16,14 @@
 # Remove v2ray-plugin
 rm -rf ./package/lean/v2ray-plugin
 
+# Add helloworld vssr
+rm -rf ./package/lean/lua-maxminddb
+rm -rf ./package/lean/luci-app-vssr
+git clone https://github.com/jerrykuku/lua-maxminddb.git ./package/lean/lua-maxminddb
+git clone https://github.com/jerrykuku/luci-app-vssr.git ./package/lean/luci-app-vssr
+
 # Add adguardhome
+rm -rf ./package/lean/luci-app-adguardhome
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git ./package/lean/luci-app-adguardhome
 
 # Add argon
