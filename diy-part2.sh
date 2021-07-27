@@ -26,10 +26,6 @@ git clone https://github.com/jerrykuku/luci-app-vssr.git ./package/lean/luci-app
 rm -rf ./package/lean/luci-app-adguardhome
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git ./package/lean/luci-app-adguardhome
 
-# Add argon
+# Add argon theme
 rm -rf ./package/lean/luci-theme-argon
-git clone https://github.com/jerrykuku/luci-theme-argon.git ./package/lean/luci-theme-argon
-
-# Add argon config
-rm -rf ./package/lean/luci-app-argon-config
-git clone https://github.com/jerrykuku/luci-app-argon-config.git ./package/lean/luci-app-argon-config
+git clone https://github.com/zhucaidan/luci-theme-argon.git ./package/lean/luci-theme-argon
