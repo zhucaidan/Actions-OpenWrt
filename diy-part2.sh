@@ -27,5 +27,5 @@ rm -rf ./package/lean/luci-app-adguardhome
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git ./package/lean/luci-app-adguardhome
 
 # Add argon theme
-rm -rf ./package/lean/luci-theme-argon
-git clone https://github.com/zhucaidan/luci-theme-argon.git ./package/lean/luci-theme-argon
+rm -rf ./feeds/luci/themes/luci-theme-argon
+git clone https://github.com/zhucaidan/luci-theme-argon.git ./feeds/luci/themes/luci-theme-argon
