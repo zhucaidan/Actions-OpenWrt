@@ -20,5 +20,8 @@
 # Add passwall
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' >>feeds.conf.default
 
+# Add passwall2
+echo 'src-git xiaorouji2 https://github.com/xiaorouji/openwrt-passwall2.git' >>feeds.conf.default
+
 # Add nezha
 echo 'src-git nezha https://github.com/Erope/openwrt_nezha.git' >>feeds.conf.default
